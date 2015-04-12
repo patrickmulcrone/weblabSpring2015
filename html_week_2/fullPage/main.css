@@ -1,0 +1,120 @@
+/* Global HTML elements*/
+
+body {
+    font-family: Cabin, Arial, sans-serif;
+}
+
+h1 {
+    font-style: normal;
+}
+
+div {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Classes */
+
+.container {
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+
+}
+
+/* Section Header Navigation */
+
+.header {
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("img/header_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    max-width: 100%;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    padding: 50px 20px 50px 20px;
+}
+
+.headerNav {
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+.header span a:-webkit-any-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.headerText {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 80px;
+    color: #fff;
+}
+
+/* Section Post-header Body Text */
+
+.bodyText {
+    color: #000;
+}
+
+.alert {
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #25aa99;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    padding: 5px 40px 5px 40px;
+}
+
+/* Section Story */
+
+.storiesBox {
+    flex-direction: row;
+
+}
+
+.story {
+    flex-direction: column;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.storyTitle {
+    color: #000;
+    font-size: 14px;
+
+}
+
+.storyAuthor {
+    color: #25aa99;
+    font-size: 12px;
+
+}
+
+.storyNumbers {
+    color: #a3a3a3;
+    font-size: 12px;
+
+}
+
+
+/* Section Graph */
+
+.graph {
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px 55px 25px 55px;
+
+}
